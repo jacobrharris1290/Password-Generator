@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         let chars = Array(digits.characters)
         print(chars)
         
+        
+        
         self.passwordLabel.text = String(generatePassword(nums: chars, length: pswdLength!));
         
     }
